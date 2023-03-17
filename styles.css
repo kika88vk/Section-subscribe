@@ -1,0 +1,127 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #242424;
+    background-color: rgba(255, 255, 255, 0.87);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    /* COLOR */
+    --primary-text-color: #111111;
+    --secondary-text-color: #FD9222;
+    --accent-color: #1E1823;
+    --secondary-accent-color: #FD9222;
+    --primary-white-color: #ffffff;
+    --bg-primary-color: #E2E2E2;
+    --bg-grad-footer: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    --bg-grad-hero: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%);
+    /* ANIMATIONS */
+    --function-duration: 350ms;
+    --function-timing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 376px) {
+    .container {
+        width: 346px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 738px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1160px;
+    }
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MOBILE-MENU-0-767px */
+@media screen and (max-width: 375px) {}
+
+@media screen and (min-width: 376px) {}
+
+@media screen and (max-width: 767px) {}
+
+/* TABLET-768-1200px */
+@media screen and (min-width: 768px) {}
+
+@media screen and (max-width: 1199px) {}
+
+/* PC-1200px-8 */
+@media screen and (min-width: 1200px) {}
