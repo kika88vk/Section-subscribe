@@ -107,6 +107,14 @@ html {
     padding-bottom: 62px;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .subscribe {
+        background-image: url(./img/images_mobile/bg-footer-mobile@2x.jpg);
+    }
+}
+
 .subscribe-title {
     font-weight: 600;
     font-size: 20px;
